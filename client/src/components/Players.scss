@@ -1,0 +1,27 @@
+.Players {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    .dark-mode {
+        background: black;
+    }
+
+    .player {
+        background: navy;
+        border: 1px solid black;
+        border-radius: 10%;
+        margin: 1%;
+        padding: 1%;
+
+        h3 {
+            font-size: 2.2rem;
+            font-style: oblique;
+        }
+
+        h5 {
+            font-size: 1.6rem;
+            font-style: italic;
+        }
+    }
+}
